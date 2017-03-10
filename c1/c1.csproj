@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <!--<Target Name="FableP2PRefsHook" BeforeTargets="ResolvePackageDependenciesForBuild">-->
+    <!-- hook into dependency chain -->
+    <!--<PropertyGroup>
+      <ResolvePackageDependenciesForBuildDependsOn>
+        $(PrepareProjectReferencesDependsOn)
+        FableP2PRefs;
+      </ResolvePackageDependenciesForBuildDependsOn>
+    </PropertyGroup>
+  </Target>-->
+
+  <!--<Target Name="FableP2PRefs" BeforeTargets="_GetAllRestoreProjectReferences">-->
+    <!-- add p2p refs -->
+    <!--<Message Text="Hi fable" Importance="High" />
+    <ItemGroup>
+      <ProjectReference Include="..\l1\l1.csproj" />
+    </ItemGroup>
+  </Target>-->
+
+</Project>
